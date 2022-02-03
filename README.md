@@ -5,6 +5,7 @@ Meu primeiro sistema no git
 <div>
     <h5>As chaves duplas não são colocadas nos comandos `{{}}` </h5>
     <hr>
+    <p>git init "Cria um novo repositorio nas diretorio atual"</p>
     <p>git status "Mostra as alterações feitas que não foram adicionadas ou comitadas, mas também mostra as os aquivos,pastas... que foram adicionadas mas não comitadas</p>
     <p>git log "Mostra todos os comites feitos no brach selecionado "</p>
     <p>git branch {{ nome brach }} "Mostra os branchs feitos. Após o brach se for adicionado algum nome ele cria um novo branch"</p>
