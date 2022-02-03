@@ -3,7 +3,12 @@ Meu primeiro sistema no git
 
 <h1>Codigos do GIT</h1>
 <div>
-    <h5>As chaves duplas não são colocadas nos comandos `{{}}` </h5>
+    <h3>As chaves duplas não são colocadas nos comandos `{{}}` </h3>
+    <h5>BOAS PRATICAS:
+        <ul> 
+            <li>Sempre quando for fazer um `push` fazer um `pull` "Para não da conflitos casos estaja trabalhando em maquinas diferentes"</li>
+        </ul>
+    </h5>
     <hr>
     <p>git init "Cria um novo repositorio nas diretorio atual"</p>
     <p>git status "Mostra as alterações feitas que não foram adicionadas ou comitadas, mas também mostra as os aquivos,pastas... que foram adicionadas mas não comitadas</p>
@@ -21,4 +26,5 @@ Meu primeiro sistema no git
     <p>git revert --no--edit (sem editar o revert) {{ codigo do commit }} "Faz outro commit revertendo o commit selecionado"</p>
     <p>git push {{ nome do diretorio na nuvem }} :{{ nome do branch}} "Exclui o branch selecionado do diretorio da nuvem mencionado"</p>    
     <p>git push -D {{ nome do branch }} "Exclui o branch localmente"</p>
+    <p>git pull {{ nome do diretorio na nuvem }} {{ branch requerido }} "Pega as alterações feitas no diretorio da nuvem do diretorio selecionado junto com os arquivos é o historico"</p>
 </div>
