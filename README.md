@@ -15,7 +15,7 @@ Meu primeiro sistema no git
     <li>O `primeiro` voltara os commits que foram adicionados depois do commit selecionado, mas com os arquivos que foram feitos após o commit selecionado não são excluidos e já estão adicionados</li>
     <li>O `segundo`  voltara os commits que foram adicionados depois do commit selecionado, mas com os arquivos que foram feitos após o commit selecionado ainda não estaram  adicionados</li>
     <li>O `terceiro` voltara os commits que foram adicionados depois do commit selecionado, e exclui todas as alteraçôes ja feitas depois desse commit selecionado</li>
-    <ul></p>
+    </ul></p>
     <p>git push {{ nome do diretorio na nuvem }} {{ nome do brach }} </p>
     <p></p>
     <p></p>
