@@ -19,6 +19,6 @@ Meu primeiro sistema no git
     </ul></p>
     <p>git push {{ nome do diretorio na nuvem }} {{ nome do brach }} </p>
     <p>git revert --no--edit (sem editar o revert) {{ codigo do commit }} "Faz outro commit revertendo o commit selecionado"</p>
-    <p>git push {{ nome do diretorio na nuvem }} :{{ nome do branch}} "Exclui o branch selecionado do diretorio da nuvem mencionado"</p>
-    <p></p>
+    <p>git push {{ nome do diretorio na nuvem }} :{{ nome do branch}} "Exclui o branch selecionado do diretorio da nuvem mencionado"</p>    
+    <p>git push -D {{ nome do branch }} "Exclui o branch localmente"</p>
 </div>
