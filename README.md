@@ -17,7 +17,7 @@ Meu primeiro sistema no git
     <li>O `terceiro` voltara os commits que foram adicionados depois do commit selecionado, e exclui todas as alteraçôes ja feitas depois desse commit selecionado</li>
     </ul></p>
     <p>git push {{ nome do diretorio na nuvem }} {{ nome do brach }} </p>
-    <p></p>
-    <p></p>
+    <p>git revert --no--edit (sem editar o revert) {{ codigo do commit }} "Faz outro commit revertendo o commit selecionado"</p>
+    <p>git push {{ nome do diretorio na nuvem }} :{{ nome do branch}} "Exclui o branch selecionado do diretorio da nuvem mencionado"</p>
     <p></p>
 </div>
